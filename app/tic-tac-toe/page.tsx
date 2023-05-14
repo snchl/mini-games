@@ -1,13 +1,13 @@
-import Title from "./components/Title";
+import Title from "../components/Title";
 
 export const metadata = {
-  title: 'Mini Games',
+  title: 'Tic Tac Toe',
 };
 
 export default function Page() {
   return (
     <main>
-      <Title title="Home" />
+      <Title title="Tic Tac Toe" />
     </main>
   );
 }
